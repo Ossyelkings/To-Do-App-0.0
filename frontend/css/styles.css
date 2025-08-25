@@ -1,0 +1,63 @@
+:root{
+    --primary: #20063d;
+    --secondary: #6c2bad;
+    --secondary-hover: 
+}
+
+nav, footer {
+    background-color: var(--primary);
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.btn-secondary{
+    background-color: var(--secondary);
+    color: white;
+    border-color: transparent;
+}
+
+.btn-secondary:hover{
+    background-color: var(--secondary-hover);
+    color: white;
+    border-color: transparent;
+}
+
+
+
+.bg-img{
+    background-image: url(../images/bg-img.jpg);
+    min-height: 90vh;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.405);
+
+}
+
+body {
+background-color: var(--primary);
+}
+
+.pageNotReady{
+    background-color: white;
+    height: 90vh;
+}
+
+form a {
+    text-decoration: none;
+    color: var(--primary);
+    transition: 0.2s ease-in-out;
+}
+form a:hover {
+    
+    color: var(--secondary);
+}
