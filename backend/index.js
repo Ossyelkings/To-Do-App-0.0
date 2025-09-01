@@ -12,7 +12,13 @@ const app = express(); // Using Express.js to power the app
 // -------------------------------- ↓ MIDDLEWARE SETUP ↓ -----------------------------------
 
 app.use(express.json());
-app.use(cors("*"));
+
+const corOptions = {
+  origin: "https://to-do-app-0-0.vercel.app",
+  method: ["GET", "POST", "PUT", "PATCH", "DELETE"],
+  credentials: true,
+};
+app.use(cors(corOptions));
 
 // ---------------------------------- ↓ DATABASE CONNECTION ↓ --------------------------------------
 
