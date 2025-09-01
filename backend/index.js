@@ -14,7 +14,7 @@ const app = express(); // Using Express.js to power the app
 app.use(express.json());
 
 const corOptions = {
-  origin: "https://to-do-app-0-0.vercel.app",
+  origin: ["https://to-do-app-0-0.vercel.app", "http://127.0.0.1:5500"],
   method: ["GET", "POST", "PUT", "PATCH", "DELETE"],
   credentials: true,
 };
