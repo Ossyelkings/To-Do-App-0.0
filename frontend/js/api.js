@@ -2,7 +2,7 @@
 const taskForm = document.getElementById("taskForm");
 const toDoList = document.getElementById("toDoList");
 const completedList = document.getElementById("completedList");
-const URL = "http://localhost:3000";
+const URL = "https://to-do-app-0-0.onrender.com";
 
 // -------------GENERAL FUNCTIONS-----------------------
 
