@@ -18,7 +18,7 @@ const corOptions = {
   method: ["GET", "POST", "PUT", "PATCH", "DELETE"],
   credentials: true,
 };
-app.use(cors(corOptions));
+app.use(cors(corOptions)); // Enables use of CORS - * means every domain is now allowed access to this server to send and recieve data.
 
 // ---------------------------------- ↓ DATABASE CONNECTION ↓ --------------------------------------
 
