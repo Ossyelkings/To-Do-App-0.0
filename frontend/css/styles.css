@@ -47,9 +47,27 @@ body {
 background-color: var(--primary);
 }
 
-.pageNotReady{
+.features-page{
     background-color: white;
     height: 90vh;
+}
+.features-page h1{
+    font-size: 50px;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+
+.feature-list ul li{
+     font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #af1e0e;
+    margin: 30px 0;
+   background-color: bisque;
+     list-style-type: none;
+     border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px;
 }
 
 form a {
